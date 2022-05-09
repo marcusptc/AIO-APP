@@ -56,11 +56,11 @@
             "required": false,
             "value": ""
         },
-        "VMESS_UUID": {
+        "VLESS_UUID": {
             "description": "Vmess proxy protocol UUID. Use UUID tools to generate you own UUID.",
             "value": "a3ac20a7-45fe-4656-97ee-937ffec46144"
         },
-        "VMESS_PATH": {
+        "VLESS_PATH": {
             "description": "Vmess proxy protocol Websocket Path. Set this path to a value which doesn't contain sensitive information.",
             "value": "/f495ba1f"
         },
