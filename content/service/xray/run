@@ -1,10 +1,5 @@
 #!/bin/sh
 
-# Dummy run for building image
-if [ "${MODE}" = "build" ]; then
-	sleep infinity
-fi
-
 # Global variables
 DIR_RUNTIME="/usr/bin"
 DIR_TMP="$(mktemp -d)"
@@ -17,7 +12,7 @@ dns:
   servers:
   - https+local://dns.adguard.com/dns-query
 inbounds:
-- port: 56803
+- port: 61804
   listen: localhost
   protocol: vless
   settings:
